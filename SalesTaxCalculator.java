@@ -71,6 +71,7 @@ public class SalesTaxCalculator {
     // Hawaii state class
     public static class Hawaii extends State {
         public Hawaii() {
+            salesTaxBehavior = new HawaiiTax();
             setName("Hawaii");
         }
     }
